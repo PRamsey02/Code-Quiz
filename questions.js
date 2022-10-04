@@ -26,3 +26,22 @@ var questions = [
         answer: "console log"
     },
 ];
+
+// Declared variables
+var score = 0;
+var questionsIndex = 0;
+
+// Start working code
+var currentTime = document.querySelector("#currentTime");
+var timer = document.querySelector("#startTime");
+var questionsDiv = document.querySelector("#questionsDiv");
+var wrapper = document.querySelector("#wrapper");
+
+// Seconds left is 15 per question
+var secondsLeft = 75;
+// Holds interval time
+var holdInterval = 0;
+// Holds penalty time
+var penalty = 10;
+// Creates new element
+var ulCreate = document.createElement("ul");
