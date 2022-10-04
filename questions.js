@@ -3,7 +3,7 @@ var questions = [
     {
         title: "Commonly used data types DO NOT include:",
         choices: ["strings", "booleans", "alerts", "numbers"],
-        answers: "alerts"
+        answer: "alerts"
     },
     {
         title: "The condition in an if / else statement is enclosed within ____.",
@@ -29,7 +29,7 @@ var questions = [
 
 // Declared variables
 var score = 0;
-var questionsIndex = 0;
+var questionIndex = 0;
 
 // Start working code
 var currentTime = document.querySelector("#currentTime");
